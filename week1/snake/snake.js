@@ -19,10 +19,13 @@ let food = {x: 15, y: 15};
 
 function snakeEquals(a, b) { 
 	/* fill here */
+    return a.x === b.x && a.y === b.y;
 }
 
 function changeDirection(orientation) {
     /* fill here */
+    let index = orientation.indexOf(direction); //indexOf Finds always the first element
+    direction = orientation[++index];
 }
 
 function start() {
@@ -39,7 +42,7 @@ function start() {
     setInterval(() => {
         nextBoard();
         display(context);
-    }, 1000 / 5);
+    }, 1000 / 5); //5x pro sekunde wird gezeichnet
 }
 
 function nextBoard() {
@@ -62,10 +65,11 @@ function nextBoard() {
         food.x = Math.floor(Math.random() * 20);   // place new food at random location
         food.y = Math.floor(Math.random() * 20);
     } else {
-        /* fill here */ // no food found => no growth despite new head => remove last element
+    /* fill here */
+        snake.pop() // no food found => no growth despite new head => remove last element
     }
-
-    /* fill here */; // put head at front of the list
+    /* fill here */
+        snake.unshift(head); // put head at front of the list
 }
 
 function display(context) {
