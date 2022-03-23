@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f8c11e8-0f7a-48bb-bde5-69707e5b8429" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week1/snake/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/week1/snake/snake.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/snake/snakeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/week1/snake/snakeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/scopeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/week2/scopeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/GoodieConsoleLogLevel.html" beforeDir="false" afterPath="$PROJECT_DIR$/week3/GoodieConsoleLogLevel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/ball/ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/week3/ball/ball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/lambda/lambda.js" beforeDir="false" afterPath="$PROJECT_DIR$/week3/lambda/lambda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/lambda/lambdaTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/week3/lambda/lambdaTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +18,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="25VG3MweNSd5Pc8i1dcP52qfOoP" />
   <component name="ProjectViewState">
@@ -22,20 +40,38 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week1" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Webcl/repo/webcl-fs22" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.snake.html">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\y4nnkee\Documents\FHNW\Semester6\Webpr\webpr-fs-22\week1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.snakeTest.html">
+    <configuration name="AllTests.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week3/AllTests.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="GoodieConsoleLogLevel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week3/GoodieConsoleLogLevel.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="snakeTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week1/snake/snakeTest.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="snake.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week1/snake/snake.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="lambdaTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week3/lambda/lambdaTest.js" working-dir="$PROJECT_DIR$/week3/lambda">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.snake.html" />
         <item itemvalue="JavaScript Debug.snakeTest.html" />
+        <item itemvalue="Node.js.lambdaTest.js" />
+        <item itemvalue="JavaScript Debug.AllTests.html" />
+        <item itemvalue="JavaScript Debug.GoodieConsoleLogLevel.html" />
+        <item itemvalue="JavaScript Debug.snake.html" />
       </list>
     </recent_temporary>
   </component>
@@ -52,7 +88,19 @@
       <workItem from="1645720615293" duration="1122000" />
       <workItem from="1645724468954" duration="726000" />
       <workItem from="1645871042874" duration="240000" />
-      <workItem from="1646206198643" duration="327000" />
+      <workItem from="1646206198643" duration="1949000" />
+      <workItem from="1646229076245" duration="54000" />
+      <workItem from="1646322617600" duration="356000" />
+      <workItem from="1646323756899" duration="1781000" />
+      <workItem from="1646481574727" duration="4636000" />
+      <workItem from="1646492463181" duration="1909000" />
+      <workItem from="1646809847492" duration="8887000" />
+      <workItem from="1646820201794" duration="114000" />
+      <workItem from="1646986844531" duration="895000" />
+      <workItem from="1647361020263" duration="2102000" />
+      <workItem from="1647444635018" duration="1056000" />
+      <workItem from="1647512829995" duration="2661000" />
+      <workItem from="1647783583627" duration="483000" />
     </task>
     <servers />
   </component>

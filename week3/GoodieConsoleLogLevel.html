@@ -44,7 +44,7 @@
     const debug = argF => { if (logLevel >= LEVEL_DEBUG) console.debug(argF()); }
 
     const logAll = () => {
-        error(() => longRunning("error"));
+        error(() => longRunning("error")); //Argumente werden zuerst evaluiert bevor sie aufgerufen werden
         warn (() => longRunning("warn") );
         info (() => longRunning("info") );
         log  (() => longRunning("log")  );

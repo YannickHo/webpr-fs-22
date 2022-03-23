@@ -5,12 +5,32 @@ const snd   = x => y => y;
 const T = konst;
 const F = snd;
 
-const and = p => q => p (q) (p);
+// const and = p => q => p ( q ( T ) ( F ) ) ( q ( F )( F ) );
+const and = p => q => p (q) (p); //p=predicate
+// False and False
+// const and = snd => snd => snd(snd)(snd) == snd; snd===F;
+// True and False
+// const and = konst => snd => konst(konst)(snd);  snd===F
 const or  = p => q => p (p) (q);
+// True and False
+// const or = konst => snd => konst(konst)(snd); == konst
+// False and True
+// const or => snd => konst => snd(snd)(konst); == konst
+// False and False
+// const or => snd => snd => snd(snd)(snd); == snd
+// False and True
+// const or => snd => konst => snd(snd) (konst); == konst
+
+const flip = f => (q) => (p) => f(q)(p)
+//TODO const not =
+
 
 const Pair      = x => y => f => f(x)(y);
 const firstname = konst;
 const lastname  = snd;
+
+
+
 
 const Left   = x => f => g => f(x);
 const Right  = x => f => g => g(x);

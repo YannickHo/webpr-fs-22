@@ -1,4 +1,5 @@
 // requires lambda.js
+// import id from "lambda.js";
 
 
 let ok = [];
@@ -17,8 +18,8 @@ ok.push( snd(null)(42) === 42 );
 
 // true
 
-ok.push( T(1)(0) === 1 );
-ok.push( F(1)(0) === 0 );
+ok.push( T(1)(0) === 1 ); //True
+ok.push( F(1)(0) === 0 ); //False
 
 // // and
 ok.push( and(F)(F) === F );
@@ -67,6 +68,8 @@ ok.push( dierk(lastname)  === "König");
 // // Pair equal
 //
 // // either
+// eiter = e => f => g => e(f)(g)
+
 //
 const safeDiv = num => divisor =>
     divisor === 0
@@ -94,8 +97,6 @@ safeDiv(1)(1)
 // ok.push( doPay(card) === "credit card 0000-1111-2222-3333");
 // ok.push( doPay(invo) === "Roger 4711");
 // ok.push( doPay(pal ) === "pal: Dierk");
-
-
 
 
 // test result report
