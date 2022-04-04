@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f8c11e8-0f7a-48bb-bde5-69707e5b8429" name="Changes" comment="">
+    <list default="true" id="5f8c11e8-0f7a-48bb-bde5-69707e5b8429" name="Changes" comment="lec3">
+      <change afterPath="$PROJECT_DIR$/week5/Playground.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/snake/snake.js" beforeDir="false" afterPath="$PROJECT_DIR$/week1/snake/snake.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/snake/snakeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/week1/snake/snakeTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/scopeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/week2/scopeTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/GoodieConsoleLogLevel.html" beforeDir="false" afterPath="$PROJECT_DIR$/week3/GoodieConsoleLogLevel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/ball/ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/week3/ball/ball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/lambda/lambda.js" beforeDir="false" afterPath="$PROJECT_DIR$/week3/lambda/lambda.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/lambda/lambdaTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/week3/lambda/lambdaTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -36,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,17 +57,17 @@
       <recent name="C:\Users\y4nnkee\Documents\FHNW\Semester6\Webpr\webpr-fs-22\week1" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.snakeTest.html">
+  <component name="RunManager" selected="JavaScript Debug.Snake.html">
     <configuration name="AllTests.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week3/AllTests.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="GoodieConsoleLogLevel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week3/GoodieConsoleLogLevel.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="snakeTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week1/snake/snakeTest.html" useBuiltInWebServerPort="true">
+    <configuration name="Snake.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week4/snake/Snake.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="snake.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week1/snake/snake.html" useBuiltInWebServerPort="true">
+    <configuration name="snakeTest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpr-fs-22/week1/snake/snakeTest.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="lambdaTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week3/lambda/lambdaTest.js" working-dir="$PROJECT_DIR$/week3/lambda">
@@ -67,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Snake.html" />
         <item itemvalue="JavaScript Debug.snakeTest.html" />
         <item itemvalue="Node.js.lambdaTest.js" />
         <item itemvalue="JavaScript Debug.AllTests.html" />
         <item itemvalue="JavaScript Debug.GoodieConsoleLogLevel.html" />
-        <item itemvalue="JavaScript Debug.snake.html" />
       </list>
     </recent_temporary>
   </component>
@@ -101,10 +109,36 @@
       <workItem from="1647444635018" duration="1056000" />
       <workItem from="1647512829995" duration="2661000" />
       <workItem from="1647783583627" duration="483000" />
+      <workItem from="1648019764457" duration="4656000" />
+      <workItem from="1649070860871" duration="58000" />
+      <workItem from="1649070925586" duration="41000" />
     </task>
+    <task id="LOCAL-00001" summary="lec3">
+      <created>1648019808018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648019808018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lec3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lec3" />
   </component>
 </project>
